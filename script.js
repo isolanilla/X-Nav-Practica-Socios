@@ -12,7 +12,7 @@ $(document).ready(function() {
           timeline += "<p class='imagen'><IMG SRC="+  data[i].avatar+ "></p>"
           timeline += "<p>" + data[i].fecha + "</p><h3>"
           timeline += "<div><p> titulo:" + data[i].titulo + "</p>"
-          timeline += "<p> contenido "+ data[i].contenido +"</p></div>"
+          timeline += "<p> contenido: "+ data[i].contenido +"</p></div>"
         }
         $("#update").hide();
         $("#accordion").append(timeline);
@@ -30,7 +30,7 @@ $(document).ready(function() {
         timeline += "<p class='imagen'><IMG SRC="+  data[i].avatar+ "></p>"
         timeline += "<p>" + data[i].fecha + "</p><h3>"
         timeline += "<div><p> titulo:" + data[i].titulo + "</p>"
-        timeline += "<p> contenido "+ data[i].contenido +"</p></div>"
+        timeline += "<p> contenido: "+ data[i].contenido +"</p></div>"
       }
 
       $("#accordion2").append(timeline);
@@ -45,7 +45,7 @@ $(document).ready(function() {
         timeline += "<p class='imagen'><IMG SRC="+  data[i].avatar+ "></p>"
         timeline += "<p>" + data[i].fecha + "</p><h3>"
         timeline += "<div><p> titulo:" + data[i].titulo + "</p>"
-        timeline += "<p> contenido "+ data[i].contenido +"</p></div>"
+        timeline += "<p> contenido: "+ data[i].contenido +"</p></div>"
       }
 
       $("#accordion").append(timeline);
